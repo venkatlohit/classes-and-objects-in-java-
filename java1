@@ -1,0 +1,52 @@
+class : 
+class is a user defined data type used to define its properties.
+syntax:
+class classname
+{
+variable declaration;
+variable declaration;
+}
+example:
+class rectangle()
+{
+int length;
+int width;
+}
+
+objec:
+object is a member or an instance of class.
+each object has its own identity ,behavior and state.
+example :
+Rectangle rect1(); //declaration
+rect1=new Rectangle();
+in this the variable rect1 is now an object at Rectangle class.
+
+methods:
+methods are declared inside the class .
+syntax:
+type methodname(parameters)
+{
+method body;
+} 
+example :
+class Rectangle
+{
+int length, width;
+int rectarea()  //defining  method
+{
+int area = length*width;
+return (area);
+}
+}
+public class rectarea
+{
+public static void main(String args[])
+{
+int area;
+Rectangle rect = new Rectangle(); // creating objects 
+rect.length = 15;
+rect.width = 10;
+area = rect.length*rect.width;
+System.out.println("Area =" +area);
+}
+}
