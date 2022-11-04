@@ -1,0 +1,43 @@
+KEYWORD:
+A key wped is a predefined word given by the compiler which performs some specific task.
+keyword should be in lower case letters.
+1.import:
+this import keyword is used to import the packages ,inorder to access the classes and objects.
+packages contains classes and objects.
+class:
+a class is a collection of objects .a class is a blue print ,which object should follow
+to create calss ,we use this keyword.
+this:
+this keyword is used to represent the method to current object.
+super:
+super keyword is used to access the methods. it is used in inheritance.
+extends:
+it is used to  accrss the methods of one class to another class. 
+it is used in inheritance.
+package:
+it is used to create package.
+return:
+every function will return a value to its main function ,
+this return keyword is used to pass the values to the main function.
+by default the return value is zero.
+try:
+it is used to rise an exception ,used in exception handeling.
+catch:
+it is used to catch the exception.
+final:
+if one value is assigned to the final keyword ,it holds the value throughout the program.
+strictfp:
+it is used to restrict the floating points.
+instance of:
+this keyword is used to check whether the particular object is the instance of a classs or not.
+abstract:
+it is used in declaring a method.
+implements:
+it is used to create an interface.
+
+Access Specifiers:
+Accesss specifiers which gives access to the variables & methods ,which class to be used by which variables
+They are if three types.
+1.public
+2.private
+3.protected
